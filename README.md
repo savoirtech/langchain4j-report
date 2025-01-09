@@ -1,7 +1,7 @@
 # LangChain4j Report
 --- 
 
-LangChain4j
+LangChain4j 0.36.2
 
 ## System Report
 
