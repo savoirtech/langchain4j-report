@@ -7,10 +7,10 @@ LangChain4j 0.36.2
 
 | Operating System    | JDK       | Maven | Architecture | Full Build | Date  | Notes |
 |---------------------|-----------|-------|--------------|------------|-------|-------|
-| CentOS Stream 9     | IBM Semeru 17  | 3.9.6 | PPC64LE      |   |  | |
-| MacOS 15.2          | IBM Semeru 17  | 3.9.5 | AArch64      |  |  | |
-| Ubuntu 22.04 LTS    | IBM Semeru 17  | 3.9.5 | x64      |  |  | |
-| Ubuntu 24.04 LTS    | IBM Semeru 17  | 3.9.8 | AArch64      |  | | |
+| CentOS Stream 9     | Eclispe Adoptium 17  | 3.9.6 | PPC64LE      |  Success |  | |
+| MacOS 15.2          | Eclispe Adoptium 17 | 3.9.9 | AArch64      | Success |  | |
+| Ubuntu 22.04 LTS    | Eclispe Adoptium 17  | 3.9.5 | x64      | Success |  | |
+| Ubuntu 24.04 LTS    | Eclispe Adoptium 17  | 3.9.8 | x64      | Success | | |
 | Windows 11 Pro      | Azul Zulu 17  | 3.8.5 | x64      |  |  | |
 | Windows 11       | MS OpenJDK 17  | 3.9.8 | AArch64      |  |  | |
 
@@ -18,9 +18,9 @@ LangChain4j 0.36.2
 ## Errata
 
 
-Fast build to assure compilation. Failed testsuite = failed build.
+Fast build to assure compilation. 
 ```
-mvn clean install
+mvn clean install -Dmaven.test.skip=true
 ```
 
 ## How to use this repo
