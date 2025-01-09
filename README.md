@@ -23,6 +23,11 @@ Fast build to assure compilation.
 mvn clean install -Dmaven.test.skip=true
 ```
 
+On Windows:
+```
+mvn clean install "-Dmaven.test.skip=true"
+```
+
 ## How to use this repo
 
 Main branch is latest release of LangChain4j
