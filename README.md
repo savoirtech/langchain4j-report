@@ -9,7 +9,7 @@ LangChain4j 1.0.0-beta1
 |---------------------|-----------|-------|--------------|------------|-------|-------|
 | CentOS Stream 9     | Eclispe Adoptium 17  | 3.9.6 | PPC64LE      |   | Feb 5, 2025 | |
 | MacOS 15.3          | Eclispe Adoptium 17 | 3.9.9 | AArch64      |  | Feb 5, 2025 | |
-| Ubuntu 22.04 LTS    | Eclispe Adoptium 17  | 3.9.5 | x64      |  | Feb 5, 2025 | |
+| Ubuntu 22.04 LTS    | Eclispe Adoptium 17  | 3.9.5 | x64      | Success | Feb 5, 2025 | |
 | Ubuntu 24.04 LTS    | Eclispe Adoptium 17  | 3.9.8 | x64      |  | Feb 5, 2025 | |
 
 
