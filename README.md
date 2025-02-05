@@ -7,10 +7,10 @@ LangChain4j 1.0.0-beta1
 
 | Operating System    | JDK       | Maven | Architecture | Full Build | Date  | Notes |
 |---------------------|-----------|-------|--------------|------------|-------|-------|
-| CentOS Stream 9     | Eclispe Adoptium 17  | 3.9.6 | PPC64LE      |   | Feb 5, 2025 | |
+| CentOS Stream 9     | Eclispe Adoptium 17  | 3.9.6 | PPC64LE      | Failure | Feb 5, 2025 | Build requires test jar even with tests skipped |
 | MacOS 15.3          | Eclispe Adoptium 17 | 3.9.9 | AArch64      |  | Feb 5, 2025 | |
 | Ubuntu 22.04 LTS    | Eclispe Adoptium 17  | 3.9.5 | x64      | Success | Feb 5, 2025 | |
-| Ubuntu 24.04 LTS    | Eclispe Adoptium 17  | 3.9.8 | x64      |  | Feb 5, 2025 | |
+| Ubuntu 24.04 LTS    | Eclispe Adoptium 17  | 3.9.8 | x64      | Failure | Feb 5, 2025 | Build requires test jar even with tests skippe |
 
 
 ## Errata
